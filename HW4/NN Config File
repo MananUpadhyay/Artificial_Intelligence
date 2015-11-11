@@ -1,0 +1,9 @@
+NN Config File
+
+Config 1 (individual true)
+{
+	learnRate=0.1;
+	norm=100;
+	hiddenNodes=250;
+	0.1wt
+} 

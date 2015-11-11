@@ -1,0 +1,50 @@
+Alice
+Dan
+Lena
+Kevin
+Emma
+Frank
+Claire
+Gill
+Ian
+Jenny
+Mark
+Ben
+Helen
+Noah
+0 16 2 43 0 0 0 0 0 0 0 0 0 0
+16 0 0 0 0 0 0 0 0 0 0 85 47 0
+2 0 0 67 0 0 28 78 0 0 0 0 0 0
+43 0 67 0 47 3 0 0 0 0 0 0 0 0
+0 0 0 47 0 0 78 0 0 0 0 73 0 97
+0 0 0 3 0 0 69 0 0 43 0 0 0 0
+0 0 28 0 78 69 0 0 74 0 65 0 0 33
+0 0 78 0 0 0 0 0 0 0 0 92 0 0
+0 0 0 0 0 0 74 0 0 0 0 0 0 0
+0 0 0 0 0 43 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 65 0 0 0 0 0 0 0
+0 85 0 0 73 0 0 92 0 0 0 0 0 0
+0 47 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 97 0 33 0 0 0 0 0 0 0
+
+Breadth
+Alice-Kevin-Emma-Noah
+
+Depth
+Alice-Dan-Ben-Emma-Claire-Noah
+
+Time
+Alice-Lena-Claire-Noah
+
+
+procedure BFS(Graph,source):
+2      create a queue Q
+3      enqueue source onto Q
+4      mark source
+5      while Q is not empty:
+6          dequeue an item from Q into v
+7          for each edge e incident on v in Graph:
+8              let w be the other end of e
+9              if w is not marked:
+10                 mark w
+11                 enqueue w onto Q

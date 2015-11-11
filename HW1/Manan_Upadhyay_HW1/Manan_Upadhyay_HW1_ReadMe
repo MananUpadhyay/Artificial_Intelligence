@@ -1,0 +1,14 @@
+Manan_Upadhyay_HW1_ReadMe
+
+1. The homework implementation language is JAVA.
+2. There is a single source file Uninformed_Search.java
+3. It presents a menu driven interface for three search methods.
+4. It also asks for the source node name and destination node name.
+5. It returns the path if found & ‘Not Found' if there is no path.
+6. The output is printed on the console as well as in a output file in the same directory as the source file.
+7. The input matrix and node names are read from the data file provided in the homework requirement. The data file should be in the same directory as the source file. 
+8. Execute the source file from the command line using the JAVAC and JAVA instructions
+
+
+Requirements:-
+JAVA 5 or greater 

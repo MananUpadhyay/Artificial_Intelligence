@@ -1,0 +1,15 @@
+HW4 Readme
+
+
+Execution:
+Use the following commands to run the file:
+
+1. javac ImageData.java  —> Compile
+2. java ImageData <train_images> <train_labels> <test_images> <output_file>.txt  —> Run 
+
+Requirements:
+
+Java 1.5 or greater
+
+Note: 1. Please use the name of the file ImageData to compile and run the code.
+	  2. Enter the Training and Testing file names without their extensions. 
